@@ -3,7 +3,7 @@
 pragma solidity ^0.8.27;
 
 contract Target {
-    address public owner;
+    address owner;
 
     event sentFunds(address adr, uint256 value);
     constructor(address _owner){
